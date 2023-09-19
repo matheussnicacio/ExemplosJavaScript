@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exemplo de operadores aritmeticos</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <script>
+        var num1 = parseInt(prompt('Digite o valor de num1'))
+        var num2 = parseInt(prompt('Digite o valor de num2'))
+
+
+        /*Adicao*/
+        document.write('a soma entre ' + num1 + ' e ' + num2 + ' e ' + (num1 + num2) + ' <br>');
+
+        /*subtracao*/
+        document.write('a subtracao entre ' + num1 + ' e ' + num2 + ' e ' + (num1 - num2) + ' <br>');
+
+        /*multipicacao*/
+        document.write('a multipicacao entre ' + num1 + ' e ' + num2 + ' e ' + (num1 * num2) + ' <br>');
+
+        /*divisao*/
+        document.write('a divisao entre ' + num1 + ' e ' + num2 + ' e ' + (num1 / num2) + ' <br>');
+
+        /*modulo*/
+        document.write('o modulo entre ' + num1 + ' e ' + num2 + ' e ' + (num1 % num2) + ' <br>');
+
+        /*incremento*/
+        document.write('o incremento entre ' + num1 + ' e ' + (num1++) + ' <br>');
+
+        /*decremento*/
+        document.write('o incremento entre ' + num1 + ' e ' + (num1--) + ' <br>');
+
+        /*precedencia entre os operadores*/
+        document.write((11 + 5 - 5 * 2) / 2);
+
+
+        /*
+        () Aplica  a precedencia
+        1 Multiplicacao e subtracao
+        2 soma e subtracao
+        
+        */
+
+    </script>
+
+</body>
+
+</html>

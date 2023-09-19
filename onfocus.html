@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exemplo com onfocus</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+<script>
+
+
+
+    function acao1(x) {
+        x.style.background = "yellow";
+
+
+    }
+
+    function acao2(x) {
+        x.style.background = "white";
+
+
+    }
+
+</script>
+
+
+<body>
+
+    <!-- onfocus - evento quando o elemento recebe o foco 
+    
+    onblur - evento quando o elemento perde o foco
+    -->
+
+
+
+    <input onfocus="acao1(this)" onblur="acao2(this)" type="text">
+    <input onfocus="acao1(this)" onblur="acao2(this)" type="text">
+
+</body>
+
+</html>
